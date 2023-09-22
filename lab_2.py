@@ -21,6 +21,7 @@ def find_segments():
         previous_x = current_x
     return segments
 segments = find_segments()
+print(f'Отримані відрізки: {segments}')
 
 #Метод половинного ділення
 
