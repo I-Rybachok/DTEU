@@ -1,8 +1,8 @@
 import numpy as np
 
+eps=0.0001
 def f(x):
   return 2 * pow(x, 4) + 4 * pow(x, 3) + pow(x, 2) + 3 * x - 6
-eps=0.0001
 
 #Відокремлення коренів (знаходимо відрізки)
 def find_segments(): 
@@ -67,6 +67,6 @@ print (f'Рішення нелінійного рівняння на відрі�
 half_division(a,b,eps) 
 сhord(a,b,eps) 
 
-print (f'Solution of a nonlinear equation on a segment [{a1}, {b1}]')
+print (f'Рішення нелінійного рівняння на відрізку [{a1}, {b1}]')
 half_division(a1,b1,eps)
 сhord(a1,b1,eps)
